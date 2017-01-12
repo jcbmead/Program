@@ -85,6 +85,7 @@ class Program
             p2.Surname = "Venning";
             DateTime dt2 = Convert.ToDateTime("03/08/2002");
             p2.Dob = dt2;
+            people.Add(p2);
         }
 
         static void printListOfUsers()
